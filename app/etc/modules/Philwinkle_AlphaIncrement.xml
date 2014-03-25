@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Philwinkle_AlphaIncrement>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Philwinkle_AlphaIncrement>
+    </modules>
+</config> 
