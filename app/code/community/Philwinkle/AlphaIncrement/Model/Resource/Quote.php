@@ -25,7 +25,7 @@ class Philwinkle_AlphaIncrement_Model_Resource_Quote extends Mage_Sales_Model_Re
         $entity_id = $adapter->fetchOne($select, $bind);
         if ($entity_id > 0) {
         	if(Mage::getConfig('alphaincrement/log/log_on_collision')){
-        		Mage::log("Resource Entity :: Reserved Order Id collision detected",false,'increment_id.log');
+        		Mage::log("Resource Entity :: Reserved Order Id collision detected: {$orderIncrementId}",false,'increment_id.log');
         	}
             return true;
         }

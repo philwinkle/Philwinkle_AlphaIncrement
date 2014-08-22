@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <alphaincrement translate="title" module="alphaincrement">
+                                        <title>Alphaincrement Config</title>
+                                        <sort_order>0</sort_order>
+                                    </alphaincrement>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
